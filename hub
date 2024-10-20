@@ -1,0 +1,9 @@
+from tkinter import *
+win = Tk()
+win.title("GELLO WORLD")
+win.geometry('600x600')
+wlcm = Label(win,text="Welcome to Fortune Teller",font= 'Impact 95')
+wlcm.place(x=105,y=15)
+name = Entry(win,width=40)
+name.place(x=105,y=305)
+win.mainloop()
